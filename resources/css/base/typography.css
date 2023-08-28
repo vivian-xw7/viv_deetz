@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
+        url('../fonts/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Roboto-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans-Italic.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans-Regular.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans-Bold.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+.hdg-1 {
+    color: red;
+    @apply font-roboto text-4xl;
+}
+
+.hdg-2 {
+    @apply font-roboto text-3xl;
+}
+
+.hdg-3 {
+    @apply font-roboto text-2xl;
+}
+
+.hdg-3 {
+    @apply font-roboto text-xl;
+}
+
+.hdg-4 {
+    @apply font-roboto text-lg;
+}
+
+.hdg-5 {
+    @apply font-roboto text-base font-bold;
+}
+
+.hdg-6 {
+    @apply font-roboto text-sm font-bold;
+}
+
+.type-default {
+    @apply font-plex text-base;
+}
+
+.type-large {
+    @apply font-plex text-lg;
+}
+
+.type-small {
+    @apply font-plex text-sm;
+}
+
+
+

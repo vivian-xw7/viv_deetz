@@ -8,10 +8,25 @@ module.exports = {
         './resources/views/**/*.blade.php',
         './resources/js/**/*.vue',
     ],
-
     theme: {
         extend: {
+            colors: {
+                pine: '#3b732d',
+                mustard: '#f9bc40',
+                sand: '#fbd17d',
+                mint: '#7fb099',
+                moss: '#3d8865',
+                pond: '#003f5c',
+            },
             fontFamily: {
+                roboto: [
+                  'Roboto',
+                  'sans-serif',
+                  'Montserrat'
+                ],
+                plex: [
+                  '"IBM Plex Sans"',
+                ],
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
         },
